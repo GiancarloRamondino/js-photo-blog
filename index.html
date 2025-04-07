@@ -18,14 +18,17 @@
 <body>
     <div class="container">
         <div class="d-flex row flex-wrap justify-content-center text-center  mt-5">
-            <div class="team-container d-flex row text-light">
+            <div class="team-container d-flex row text-light relative-target">
                 <div class="team-card col-4 text-start mt-4">
                     <div class="card-image object-fit-contain"> 
-                        <img src="${member.img}" class="card-image1" alt="${member.name}">
+                        <img src="./img/wall.png" class="card-image1" alt="${member.name}">  <!--${member.img}-->
                     </div>
                     <div class="card-text bg-dark oooh-baby-regular">
                         <h4>${member.name}</h4>
                         <p class="fs-6 text">${member.role}</p>
+                    </div>
+                    <div class="card-image object-fit-contain"> 
+                        <img src="./img/pin.svg" class="relative" alt="${member.name}">
                     </div>
                 </div>
             </div>

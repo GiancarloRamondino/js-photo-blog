@@ -11,6 +11,7 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: #050505;
     text-align: center;
+    
 }
 
 header{
@@ -26,29 +27,6 @@ body{
     background-attachment: fixed;
 }
 
-.sriracha-regular {
-    font-family: "Sriracha", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .oooh-baby-regular {
-    font-family: "Oooh Baby", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.relative{
-    position: relative;
-    bottom: 370px;
-    left: 45%;
-}
-
-.relative.target{
-    position: relative;
-    top: 0px;
-}
-
 #lista{
     list-style-type: none;
     margin: 0;
@@ -58,4 +36,37 @@ body{
 .c-trasparent{
     background-color: rgba(255, 255, 255, 0);
     border: none;
+}
+
+/*font*/
+.edu-tas-beginner {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sometype-mono {
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*posizionamento*/
+.relative{
+    position: relative;
+    bottom: 380px;
+    left: 45%;
+}
+
+.relative.target{
+    position: relative;
+    top: 0px;
 }

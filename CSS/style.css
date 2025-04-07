@@ -48,3 +48,14 @@ body{
     position: relative;
     top: 0px;
 }
+
+#lista{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.c-trasparent{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}

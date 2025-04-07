@@ -1,0 +1,39 @@
+.card-image1{
+    width: 125px;
+    height: 125px;
+}
+
+.card-text{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #050505;
+    text-align: center;
+}
+
+header{
+    background-image: url('../img/wall.png');
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    background-image: url('../img/cork.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sriracha-regular {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .oooh-baby-regular {
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }

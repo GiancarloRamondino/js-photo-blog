@@ -41,7 +41,7 @@ body{
 .relative{
     position: relative;
     bottom: 370px;
-    left: 120px;
+    left: 45%;
 }
 
 .relative.target{

@@ -22,7 +22,7 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
                     <p class="m-2">${item.date}</p>
                     <h4 class="m-2 edu-tas-beginner">${item.title}</h4>
                 </div>
-                <div class="card-image object-fit-contain "> 
+                <div class="card-image object-fit-contain none"> 
                     <img src="./img/pin.svg" class="relative">
                 </div>
             `;

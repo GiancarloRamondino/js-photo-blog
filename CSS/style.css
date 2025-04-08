@@ -70,3 +70,34 @@ body{
     position: relative;
     top: 0px;
 }
+
+.card:hover{
+   transform: rotate(0.02turn);
+   .none {
+       display: none;
+   }
+}
+
+.carousel{
+    opacity: 0.8;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.carousel-img{
+    width: 600px;
+    height: 600px;
+}
+
+
+.position-absolutee{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 12px;
+}
+
+.mt-40{
+    margin-top: 200px;
+}

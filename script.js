@@ -31,7 +31,23 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
     });
 
 
+    // Seleziono l'overlay e il bottone di chiusura
+    const overlay = document.getElementById('d-none');
+    const closeButton = document.getElementById('btn');
 
+    // Aggiungo l'evento di click al bottone per chiudere l'overlay
+    closeButton.addEventListener('click', () => {
+        overlay.classList.add('d-none');
+    });
+
+    // Aggiungo l'evento di click alle immagini per aprire l'overlay
+    document.getElementById('lista').addEventListener('click', (event) => {
+        overlay.classList.remove('d-none');
+        if (event.target.tagName === 'IMG') {
+            const overlayImage = document.getElementById('overlay-image'); //aggioorno  l'immagine
+            overlay.style.display = 'flex';
+        }
+    });
 
 
 

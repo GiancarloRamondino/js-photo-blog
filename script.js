@@ -45,6 +45,7 @@ fetch('https://lanciweb.github.io/demo/api/pictures/')
         overlay.classList.remove('d-none');
         if (event.target.tagName === 'IMG') {
             const overlayImage = document.getElementById('overlay-image'); //aggioorno  l'immagine
+            overlayImage.src = event.target.src; //sostituisco l'immagine con una che è nella lista
             overlay.style.display = 'flex';
         }
     });
